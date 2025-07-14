@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Sample Weather App</title>
+    <title>Weather</title>
 </head>
-<body>
-   
+<body class="Container">
+  <header role="banner" class="row">
+      <h1 class="col-12">Weather Biloxi, MS</h1>
+      <button class="col-2" id="fetchWeatherBtn">Get Weather Forecast</button>
+      
+  </header>
+  <main role="main">
+    <div id="loadingSpinner"></div>
+    <div id="weather-container">
+    <div id="weather-box"></div>
+  </main>
+    <script src="./JS/script.js"></script>
     <script src="./JS/app.js"></script>
 </body>
 </html>

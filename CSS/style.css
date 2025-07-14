@@ -4,12 +4,11 @@ body{
     display: flex;
     align-items:center;
     justify-content: center;
-    height: 100vh;
     margin: 0;
 }
 #weather-container{
+    justify-items: center;
     background-color: rbga(255,255,255,0.3);
-    max-width: 400px;
     padding:20px;
     border-radius: 15px;
     box-shadow: 0 8px 32px rbga(0,0,0,0.1);
@@ -17,18 +16,12 @@ body{
     border: 1px solid rbga(255,255,255,0.1);
     text-align: center;
 }
-h2, p ,lable{
-    color:azure;
+
+h2, p {
+    color:navy;
     margin: 8px 0;
 }
-input{
-    width:calc(100% -16px);
-    padding:8px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    border: 1px solid white;
-    margin-top: 20px;
-}
+
 button{
     background-color: aqua;
     color: azure;
@@ -43,17 +36,17 @@ button:hover{
     background-color: white;
     color: aqua;
 }
-#temp-div p {
-   font-size:60px; 
-   margin-top: -30px;    
-}
-#weather-info{
-    font-size:20px;
-}
+
 weather-icon{
-    width: 200px;
-    height: 200px;
-    margin: 0 auto 10px;
+    width: 70px;
+    height: 70px;
     margin-bottom: 0;
-    display:none;
+}
+
+@media(max-width: 400px){
+    button{
+      background-color: rgba(95, 158, 160, 0.8);
+      font-size: xx-small; 
+      padding:0; 
+    }
 }

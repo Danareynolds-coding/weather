@@ -1,0 +1,8 @@
+//   forecastTime.innerHTML = `
+    //   <p>Conditions: ${period.shortForecast}</p>
+    // ${period.hasOwnProperty('minTemperature') ? `<p>Min Temperature: ${period.minTemperature} ${period.temperatureUnit}</p>` : ''}
+    // ${period.hasOwnProperty('maxTemperature') ? `<p>Max Temperature ${period.maxTemperature} ${period.temperatureUnit}
+    // </p>:''}${period.temperatureUnit}</p>` : ''
+    // `;
+  
+
